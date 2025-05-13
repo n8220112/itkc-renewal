@@ -1,5 +1,5 @@
 /* 헤더 불러오기 */
-fetch('../header.html')
+fetch('itkc-renewal/header.html')
 .then(function(res){
   //응답을 텍스트로 변환
   return res.text();})
@@ -78,7 +78,7 @@ document.querySelectorAll('.accordion_title').forEach(item => {
 });
 
 /* 푸터 불러오기 */
-fetch('../footer.html')
+fetch('itkc-renewal/footer.html')
 .then(function(res){
   return res.text();})
 .then(function(data){
