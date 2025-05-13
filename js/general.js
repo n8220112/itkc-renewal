@@ -38,7 +38,7 @@ let headerHeight = headerWrap.offsetHeight;
 
 window.onscroll = function () {
   let windowTop = window.scrollY;
-  if (windowTop >= headerHeight) {
+  if (windowTop > headerHeight) {
     header.classList.add('drop');
     subMenu.classList.add('drop');
   }
