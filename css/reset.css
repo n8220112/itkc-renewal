@@ -1,0 +1,70 @@
+:root{
+  --black: #333;
+  --gray: #8D8D8D;
+  --lightgray: #D9D9D9;
+  --bg: #fafafa;
+  --main-color: #7C8D03;
+  --main-sub-color: #ccd482;
+  --main-point-color: #eae059;
+  --main-base-color: #F9FAF5;
+  --main-dark-color: #4F5902;
+  --point-color: #A53D32;
+  --point-dark-color: #551812;
+  --point-sub-color: #A6886C;
+  --paper-color: #F4F1E9;
+  --box-shadow: 0 2px 10px #0000001a;
+  --box-shadow-hover: 0 20px 20px #0000002a;
+  --light: 300;
+  --normal: 400;
+  --bold: 600;
+  --small: 15px;
+  --regular: 18px;
+  --large: 20px;
+  --big: 24px;
+  --padding: 35px;
+}
+
+/* font */
+/* Noto Sans KR */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+/* Noto Serif KR */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200..900&display=swap');
+/* font-family: "Noto Serif KR", serif; */
+/* 이롭게바탕 */
+@font-face {
+  font-family: 'Iropke Batang';
+  font-style: normal;
+  font-weight: var(--normal);
+  src: url(//cdn.jsdelivr.net/font-iropke-batang/1.2/IropkeBatangM.eot);
+  src: url(//cdn.jsdelivr.net/font-iropke-batang/1.2/IropkeBatangM.eot?#iefix) format('embedded-opentype'),
+       url(//cdn.jsdelivr.net/font-iropke-batang/1.2/IropkeBatangM.woff) format('woff'),
+       url(//cdn.jsdelivr.net/font-iropke-batang/1.2/IropkeBatangM.ttf) format('truetype');
+}
+/* 전주완판본 각체 */
+@font-face {
+  font-family: 'Jeonju_gakR';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/Jeonju_gakR.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* reset */
+*{
+  margin: 0; padding: 0; box-sizing: border-box; 
+  font-size: var(--regular); 
+  font-weight: var(--normal);
+  color: var(--black);
+  letter-spacing: -1px;
+}
+body{background-color: var(--bg);}
+a{text-decoration: none;}
+li, ul, ol{list-style: none;}
+
+/* common */
+html{scroll-behavior: smooth;}
+header, footer{text-align: center;}
+body{font-family: "Noto Sans KR", sans-serif;}
+h3, h4{font-family: "Iropke Batang";}
+h1, h2{font-family: 'Jeonju_gakR';}
+
+.inner{width: 1300px; margin: auto;}

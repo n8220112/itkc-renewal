@@ -1,0 +1,198 @@
+#footer .family_link{display: none;}
+
+#container {
+  margin-top: 160px;
+}
+
+.notice {}
+
+.notice_banner {
+  width: 100%;
+  height: 320px;
+  background-image: url(../images/visual\ \(3\).png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  transition: .3s;
+}
+
+.notice_banner_title {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.notice_banner_title h2 {font-size: 40px; margin-bottom: 15px; color: white;}
+
+.notice_banner_title p {color: white;}
+
+.notice_title, .notice_desc{display: flex; justify-content: space-between; align-items: center;}
+
+.notice_title{margin-top: 60px;}
+.notice_title img{margin-right: 10px;}
+.notice_title h3{
+  font-weight: bold;
+  font-size: 36px;
+  margin-right: auto;
+}
+.notice_icons i{margin-left: 10px; color: var(--gray);}
+
+.notice_total p{font-size: var(--small);}
+.notice_total p strong{font-size: var(--small); font-weight: bold; color: var(--point-color)}
+.notice_total p strong:first-child{color: var(--main-color)}
+
+.notice_search {
+  position: relative;
+}
+
+.notice_search input[type=search] {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid var(--main-color);
+  font-size: var(--regular);
+  padding: 3px 0 3px 30px;
+  background-color: transparent;
+}
+
+.notice_search::before {
+  content: "\f002";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  position: absolute;
+  left: 5px;
+  top: 49%;
+  transform: translateY(-50%);
+  color: var(--main-color);
+}
+
+.tabs {
+  margin: 50px 0 30px;
+  border-bottom: 1px solid var(--lightgray);
+}
+
+.tabs button {
+  padding: 10px 20px;
+  margin-right: 5px;
+  border: 1px solid var(--lightgray);
+  background: var(--lightgray);
+  border-radius: 5px 5px 0 0;
+  cursor: pointer;
+  font-family: "Noto Sans KR", sans-serif;
+  transition: .2s;
+}
+
+.tabs button:hover{
+  border: 1px solid var(--main-sub-color);
+  background-color: var(--main-sub-color);
+}
+
+.tabs .active {
+  border: 1px solid var(--main-color);
+  background-color: var(--main-color);
+  color: #fff;
+  font-weight: bold;
+}
+
+.notice_table col:nth-child(1){width: 5%;}
+.notice_table col:nth-child(2){width: 8%;}
+.notice_table col:nth-child(3){width: 70%;}
+.notice_table col:nth-child(4){width: 10%;}
+.notice_table col:nth-child(5){width: 7%;}
+.notice_table {
+  width: 100%;
+  /* height: 650px; */
+  border-collapse: collapse;
+  border: none;
+  margin-top: 10px;
+  border-top: 2px solid var(--point-dark-color);
+  border-bottom: 2px solid var(--point-dark-color);
+  table-layout: fixed;
+}
+
+.notice_table th,
+.notice_table td {
+  padding: 10px;
+  text-align: center;
+}
+
+.notice_table thead {
+  height: 80px;
+  background-color: var(--point-sub-color);
+}
+
+.notice_table th{font-weight: bold;}
+
+.notice_table tbody tr:nth-child(even) {
+  background-color: var(--paper-color);
+}
+
+.notice_table tbody tr {
+  height: calc(570px/10);
+  border-bottom: 1px solid var(--lightgray);
+}
+
+.notice_table tbody tr td {
+  color: var(--gray);
+  font-size: var(--small);
+}
+
+.notice_table tbody tr td:first-child {
+  font-weight: bold;
+  color: var(--main-dark-color);
+}
+
+.notice_table tbody tr td:nth-child(2) {
+  color: var(--main-color)
+}
+
+.notice_table tbody tr td:nth-child(3){
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: var(--black);
+  font-size: var(--regular);
+}
+
+.pagination{
+  margin: 55px auto 80px;
+  display: flex;justify-content: center;
+  align-items: center;
+}
+
+.pagination > button{
+  width: 20px; height: 25px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-size: 0;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.pagination > button i::before{
+  color: var(--lightgray);
+  font-size: var(--small);
+}
+
+.pagination-buttons {
+  margin: 0 15px;
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+}
+
+.pagination-buttons button {
+  width: 25px; height: 25px;
+  cursor: pointer;
+  border: none;
+  background: white;
+  font-size: var(--small);
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.pagination-buttons button.active {
+  background: var(--main-color);
+  color: white;
+  font-weight: bold;
+}

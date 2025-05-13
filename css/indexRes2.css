@@ -1,0 +1,428 @@
+@media screen and (max-width: 479px) {
+    /* reset common */
+    :root {
+      --small: 12px;
+      --regular: 15px;
+      --large: 18px;
+      --big: 20px;
+    }
+  
+    .inner {
+      width: 100%;
+      padding: 0 10px;
+    }
+    
+  /* index */
+  /* common */
+  .main_title {
+    gap: 10px;
+  }
+
+  .main_title .div_bar {
+    display: none;
+  }
+
+  .main_title h2 {
+    font-size: 28px;
+  }
+
+  .main_title {
+    gap: 20px;
+  }
+
+  .main_title p,
+  .main_title p a {
+    display: none;
+  }
+
+  section {
+    margin: 0;
+    padding: 30px 0;
+  }
+
+  #container {
+    margin-top: 90px;
+  }
+
+
+  /* 메인비주얼 */
+
+  #main_visual {
+    height: 270px;
+  }
+
+  .text_visual {
+    position: absolute;
+    text-align: left;
+    left: 10px;
+    padding: 0;
+  }
+
+  .text_visual div {
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+
+  .text_visual div::before {
+    width: 3px;
+  }
+
+  .text_visual h3 {
+    font-size: var(--regular);
+    letter-spacing: -1px;
+    margin-bottom: 10px;
+  }
+
+  .text_visual h1 {
+    font-size: 24px;
+    letter-spacing: -2px;
+  }
+
+  .text_visual p {
+    font-size: var(--regular);
+    margin-bottom: 20px;
+  }
+
+  .text_visual a {
+    font-size: var(--small);
+    padding: 5px 10px;
+  }
+
+
+  /* 바로가기 */
+  #quick_link {
+    height: unset;
+  }
+
+  #quick_link .inner {
+    padding: 0;
+  }
+
+  .quick_link {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+    align-content: space-between;
+  }
+
+  .quick_link li {
+    width: unset;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .quick_link li a span {
+    font-size: var(--small);
+  }
+
+  /* 고전산책 */
+  .card_wrap {
+    display: block;
+  }
+
+  .card {
+    width: 100%;
+    height: 300px;
+  }
+
+  .card h4 {
+    font-size: 28px;
+  }
+
+  .card p {
+    height: auto;
+    -webkit-line-clamp: 4;
+  }
+
+  .card:nth-child(2) {
+    order: 4;
+  }
+
+  .card:nth-child(3) {
+    display: none;
+  }
+
+  .card:nth-child(4),
+  .card:last-child {
+    display: flex;
+    width: 49.7%;
+    display: inline-block;
+    height: unset;
+  }
+
+  div.card:nth-child(4) span,
+  div.card:last-child span,
+  .card_list {
+    padding: 0 10px;
+  }
+
+  .card_list {
+    line-height: 200%;
+    align-content: center;
+    margin-top: 10px;
+  }
+
+  .card_list li {
+    padding: 0 2px;
+  }
+
+  .card:nth-child(4) .card_list li::before,
+  .card:last-child .card_list li::before {
+    content: "-";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 2.5px;
+  }
+
+  .card:nth-child(4) .card_list li:hover::before,
+  .card:last-child .card_list li:hover::before {
+    content: "\f10d";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+  }
+
+  .card:nth-child(4) .card_list li::before {
+    color: var(--main-color);
+  }
+
+  .card:last-child .card_list li::before {
+    color: var(--point-color);
+  }
+
+  /* DB */
+  #main_DB .main_title>div,
+  #main_DB .main_title>p {
+    display: none;
+  }
+
+  .search_DB input[type=search] {
+    width: 100%;
+  }
+
+  .DB_wrap {
+    grid-template-columns: 100%;
+    row-gap: var(--padding);
+  }
+
+  .DB_right {
+    height: unset;
+    gap: 20px;
+  }
+
+  .quick_DB ul {
+    margin: auto;
+  }
+
+  .quick_DB ul li {
+    width: 100%;
+    height: 20%;
+  }
+
+  .quick_DB ul li a {
+    padding-left: 40%;
+  }
+
+  .quick_DB ul li a::before {
+    height: 100%;
+    width: 30%;
+    left: 0;
+    transform: translateY(-50%);
+    background-position: center;
+    background-size: contain;
+    margin-left: 5px;
+  }
+
+  .link_DB {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: unset;
+    width: 100%;
+  }
+
+  .box_DB+.div_bar {
+    height: 1px;
+    width: 90%;
+  }
+
+  .box_DB {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: var(--padding);
+    position: relative;
+  }
+
+  /* 공지 */
+  #main_notice {
+    background-image: none;
+  }
+
+  #main_notice .inner {
+    padding: 0;
+  }
+
+  #main_notice .main_title {
+    padding-left: 20px;
+  }
+
+  .notice_wrap {
+    display: block;
+  }
+
+  .card_notice {
+    width: 100%;
+    height: 50px;
+  }
+
+  .card_notice:hover {
+    box-shadow: var(--box-shadow);
+    transform: unset;
+  }
+
+  .card_notice a {
+    padding: 0 5px;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .label {
+    width: 12%;
+    height: 50%;
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-bottom: 0;
+  }
+
+  .label_news {
+    width: 15%;
+  }
+
+  .card_notice a h5 {
+    font-size: var(--regular);
+    width: 70%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .card_notice a span {
+    margin-left: auto;
+    font-size: var(--small);
+    margin-top: 0;
+  }
+
+  /* 도서 */
+
+  #main_books {
+    height: unset;
+  }
+
+  .books_wrap {
+    flex-direction: column;
+  }
+
+  .books_category {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .books_maincate {
+    width: 80%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px 20px;
+    margin-bottom: 10px;
+    justify-content: start;
+  }
+
+  .books_category a {
+    width: unset;
+  }
+
+  .books_maincate>li>a {
+    margin-bottom: 0;
+    padding: 2px 16px 0 12px;
+  }
+
+  .books_maincate>li:hover a+.books_subcate {
+    display: none;
+  }
+
+  .books_contents {
+    width: 100%;
+    padding: 10px;
+    min-height: unset;
+    max-height: unset;
+  }
+
+  .books_contents ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 5px 0;
+  }
+
+  .book {
+    width: calc(99%/3);
+    padding: 5px 0;
+    text-align: center;
+    transition: .3s;
+    transform-origin: 50%, 80%;
+  }
+
+  .book a h5 {
+    font-size: var(--regular);
+  }
+
+  .book a {
+    gap: 10px;
+  }
+
+  .book a img {
+    width: 80%;
+    height: auto;
+  }
+
+  /* 홍보 */
+
+  .promo_wrap {
+    grid-template-columns: 1fr;
+    grid-row-gap: 50px;
+  }
+
+  .promo_left {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .promo_wrap .promo_left p {
+    width: 100%;
+    padding: 30px 0 30px 15px;
+    font-size: var(--regular);
+  }
+
+  .promo_wrap .promo_left p::before {
+    content: "“";
+    position: absolute;
+    font-size: 100px;
+    top: 10%;
+    left: -5%;
+    color: var(--main-color)
+  }
+
+  .promo_wrap .promo_right p {
+    width: 100%;
+    font-size: var(--regular);
+  }
+
+  ;
+
+}
+
+;

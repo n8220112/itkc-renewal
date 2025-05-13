@@ -1,0 +1,57 @@
+@media screen and (max-width:479px) {
+  /* reset common */
+  :root {
+    --small: 12px;
+    --regular: 15px;
+    --large: 18px;
+    --big: 20px;
+  }
+
+  .inner {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  #container {
+    margin-top: 40px;
+  }
+  
+  .logo_res {display: none;}
+  
+  .notice_banner {
+    height: 160px;
+  }
+  
+  .notice_banner_title h2 {font-size: 36px; margin-bottom: 15px; color: white;}
+  
+  .notice_title{margin-top: 30px;}
+  .notice_title h3{
+    font-size: 30px;
+  }
+  
+  .tabs button {
+    padding: 5px 10px;
+    margin-right: 2px;
+  }
+
+  .notice_table col:nth-child(1){width: 10%;}
+  .notice_table col:nth-child(2){width: 10%;}
+  .notice_table col:nth-child(3){width: 50%;}
+  .notice_table col:nth-child(4){width: 15%;}
+  .notice_table col:nth-child(5){width: 15%;display: none;}
+  
+  .notice_table th,
+  .notice_table td {
+    padding: 5px;
+  }
+  
+  .notice_table thead {
+    height: 50px;
+  }
+
+  .notice_table tbody tr {
+    height: calc(500px/10);
+  }
+
+  .pagination-buttons{margin: 0;}
+}

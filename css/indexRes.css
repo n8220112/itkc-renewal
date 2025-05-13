@@ -1,0 +1,353 @@
+@media all and (min-width:480px) and (max-width:767px) {
+    /* reset common */
+    :root {
+      --small: 12px;
+      --regular: 15px;
+      --large: 18px;
+      --big: 20px;
+    }
+  
+    .inner {
+      width: 100%;
+      padding: 0 20px;
+    }
+    
+  /* index */
+  /* common */
+  .main_title {
+    gap: 10px;
+  }
+
+  .main_title .div_bar {
+    display: none;
+  }
+
+  .main_title p,
+  .main_title p a {
+    font-size: var(--regular);
+    width: 45%;
+  }
+
+  section {
+    margin: 0;
+  }
+
+  #container {
+    margin-top: 150px;
+  }
+
+  /* 메인비주얼 */
+
+  #main_visual {
+    height: 400px;
+  }
+
+  .text_visual {
+    position: absolute;
+    text-align: left;
+    left: 10px;
+    padding: 0;
+  }
+
+  .text_visual div {
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+
+  .text_visual div::before {
+    width: 3px;
+  }
+
+  .text_visual h3 {
+    font-size: 24px;
+    letter-spacing: -1px;
+    margin-bottom: 10px;
+  }
+
+  .text_visual h1 {
+    font-size: 40px;
+    letter-spacing: -2px;
+  }
+
+  .text_visual p {
+    font-size: var(--large);
+    margin-bottom: 20px;
+  }
+
+  .text_visual a {
+    font-size: var(--regular);
+    padding: 5px 10px;
+  }
+
+  /* 바로가기 */
+  #quick_link {
+    height: unset;
+  }
+
+  #quick_link .inner {
+    padding: 0;
+  }
+
+  .quick_link {
+    margin: auto;
+    width: 98%;
+    height: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    align-content: space-between;
+  }
+
+  .quick_link li {
+    width: unset;
+  }
+
+  /* 고전산책 */
+  .card_wrap {
+    flex-wrap: wrap;
+  }
+
+  .card {
+    width: 50%;
+    height: 373px;
+  }
+
+  .card h4 {
+    font-size: 28px;
+  }
+
+  .card p {
+    height: auto;
+    -webkit-line-clamp: 4;
+  }
+
+  .card:nth-child(2) {
+    order: 4;
+  }
+
+  .card:nth-child(3) {
+    display: none;
+  }
+
+  .card:nth-child(4),
+  .card:last-child {
+    display: flex;
+  }
+
+  .card_list {
+    line-height: 200%;
+    align-content: center;
+  }
+
+  .card_list li {
+    padding: 0 2px;
+  }
+
+  .card:nth-child(4) .card_list li::before,
+  .card:last-child .card_list li::before {
+    content: "-";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+  }
+
+  .card:nth-child(4) .card_list li:hover::before,
+  .card:last-child .card_list li:hover::before {
+    content: "\f10d";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+  }
+
+  .card:nth-child(4) .card_list li::before {
+    color: var(--main-color);
+  }
+
+  .card:last-child .card_list li::before {
+    color: var(--point-color);
+  }
+
+  /* DB */
+  #main_DB .main_title>div,
+  #main_DB .main_title>p {
+    display: none;
+  }
+
+  .search_DB input[type=search] {
+    width: 100%;
+  }
+
+  .DB_wrap {
+    grid-template-columns: 100%;
+    row-gap: var(--padding);
+  }
+
+  .DB_left,
+  .DB_right {
+    height: unset;
+    gap: 20px;
+  }
+
+  .link_DB {
+    height: unset;
+    width: 100%;
+  }
+
+  .box_DB {
+    padding: 40px 20px;
+    height: 100%;
+  }
+
+  .img_DB {
+    width: 80px;
+    height: 80px;
+  }
+
+  /* 공지 */
+  #main_notice {
+    background-size: auto;
+  }
+
+  .notice_wrap {
+    display: block;
+  }
+
+  .card_notice {
+    width: 100%;
+    height: 60px;
+  }
+
+  .card_notice:hover {
+    transform: scale(1.02);
+  }
+
+  .card_notice a {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .label {
+    width: 60px;
+    height: 80%;
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-bottom: 0;
+  }
+
+  .card_notice a h5 {
+    font-size: var(--regular);
+    width: 70%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .card_notice a span {
+    margin-left: auto;
+    font-size: var(--small);
+    margin-top: 0;
+  }
+
+  /* 도서 */
+  #main_books {
+    height: unset;
+  }
+
+  .books_wrap {
+    flex-direction: column;
+  }
+
+  .books_category {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .books_maincate {
+    width: 80%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px 20px;
+    margin-bottom: 10px;
+    justify-content: start;
+  }
+
+  .books_category a {
+    width: unset;
+  }
+
+  .books_maincate>li>a {
+    margin-bottom: 0;
+    padding: 2px 16px 0 12px;
+  }
+
+  .books_maincate>li:hover a+.books_subcate {
+    display: none;
+  }
+
+  .books_contents {
+    width: 100%;
+    padding: 10px;
+    min-height: unset;
+    max-height: unset;
+  }
+
+  .books_contents ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 5px 0;
+  }
+
+  .book {
+    width: calc(99%/3);
+    padding: 5px 0;
+    text-align: center;
+    transition: .3s;
+    transform-origin: 50%, 80%;
+  }
+
+  .book a h5 {
+    font-size: var(--regular);
+  }
+
+  .book a {
+    gap: 10px;
+  }
+
+  .book a img {
+    width: 80%;
+    height: auto;
+  }
+
+  /* 홍보 */
+
+  .promo_wrap {
+    grid-template-columns: 1fr;
+    grid-row-gap: 50px;
+  }
+
+  .promo_left {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .promo_wrap .promo_left p {
+    width: 100%;
+    padding: 30px 0 30px 30px;
+    line-height: 200%;
+  }
+
+  .promo_wrap .promo_left p::before {
+    content: "“";
+    position: absolute;
+    font-size: 150px;
+    top: var(--padding);
+    left: 0;
+    color: var(--main-color)
+  }
+
+  .promo_wrap .promo_right p {
+    width: 80%;
+    font-size: var(--large);
+  }
+}
+
+;
