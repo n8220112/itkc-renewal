@@ -1,33 +1,108 @@
-<div align= "center">
-    <img src="https://capsule-render.vercel.app/api?type=rounded&color=auto&height=180&text=ㅇㅅㅇ&animation=fadeIn&fontColor=000000&fontSize=90" />
-    </div>
-    <div align= "center"> 
-    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> ddd </h2>  
-    <div style="font-weight: 700; font-size: 15px; text-align: center; color: #282d33;"> asfafq </div> 
-    </div>
-    <div align= "center">
-    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🛠️ Tech Stacks </h2> <br> 
-    <div style="margin: 0 auto; text-align: center;" align= "center"> <img src="https://img.shields.io/badge/Amazon S3-569A31?style=plastic&logo=Amazon S3&logoColor=white">
-          <img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=plastic&logo=Amazon AWS&logoColor=white">
-          <img src="https://img.shields.io/badge/Django-092E20?style=plastic&logo=Django&logoColor=white">
-          <img src="https://img.shields.io/badge/Figma-F24E1E?style=plastic&logo=Figma&logoColor=white">
-          <img src="https://img.shields.io/badge/Github-181717?style=plastic&logo=Github&logoColor=white">
-          <br/><img src="https://img.shields.io/badge/IOS-000000?style=plastic&logo=IOS&logoColor=white">
-          <img src="https://img.shields.io/badge/MariaDB-003545?style=plastic&logo=MariaDB&logoColor=white">
-          <img src="https://img.shields.io/badge/Notion-000000?style=plastic&logo=Notion&logoColor=white">
-          <img src="https://img.shields.io/badge/React-61DAFB?style=plastic&logo=React&logoColor=white">
-          <img src="https://img.shields.io/badge/ReduxSaga-999999?style=plastic&logo=ReduxSaga&logoColor=white">
-          <br/><img src="https://img.shields.io/badge/StyledComponents-DB7093?style=plastic&logo=StyledComponents&logoColor=white">
-          <img src="https://private-user-images.githubusercontent.com/209986091/443515869-98016a7d-68eb-4e48-b033-ce69253bb0db.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDcyMDM2OTQsIm5iZiI6MTc0NzIwMzM5NCwicGF0aCI6Ii8yMDk5ODYwOTEvNDQzNTE1ODY5LTk4MDE2YTdkLTY4ZWItNGU0OC1iMDMzLWNlNjkyNTNiYjBkYi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNTE0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDUxNFQwNjE2MzRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hNzcxMzYyZDVjMGNmMGFmNzcwYTg1MTMxZmY4NzJiNWE1MGUyNTQwOWQzMGE0NjZkNWJmZWQxNzFkNmRkZDJmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.DY83vBz07V33l4zWlNEp7OAI75tAN-JFIVZfgS-jIY8">
-          </div>
-    </div>
-    <div align= "center">
-    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🧑‍💻 Contact me </h2> <br> 
-    <div align= "center"> <a href=> <img src="https://img.shields.io/badge/Tistory-000000?style=plastic&logo=Tistory&logoColor=white&link="> </a>
-         <a href=> <img src="https://img.shields.io/badge/Notion-000000?style=plastic&logo=Notion&logoColor=white&link="> </a>
-         <a href=mailto:> <img src="https://img.shields.io/badge/Gmail-EA4335?style=plastic&logo=Gmail&logoColor=white&link=mailto:"> </a>
-         <a href=> <img src="https://img.shields.io/badge/Instagram-E4405F?style=plastic&logo=Instagram&logoColor=white&link="> </a>
-          </div>  <br> 
-    <div align= "center">  </div> 
-    </div>
-    
+
+#  🌲🌲🌲**공공기관 리뉴얼**식장산🌲🌲🌲
+
+## 작업자 : 홍길동
+
+## 제작 기간
+- 기획: 3일 (2024년 10월 25일 ~ 2024년 10월 27일)
+- 디자인: 5일 (2024년 10월 28일 ~ 2024년 11월 1일)
+- 개발: 10일 (2024년 11월 2일 ~ 2024년 11월 11일)
+
+## ⭐️ 프로젝트 설명
+
+### 메인 페이지 
+- 대표 기능: 메인 페이지에서 사용한 핵심 기능을 나열. 예를 들어, 슬라이더, 주요 공지사항, 배너 등.
+- 사용자 인터페이스: 사용자가 메인 페이지에서 처음으로 접하는 인터페이스의 특징과 핵심 기능들.
+- 검색 및 네비게이션 기능: 사용자가 원하는 정보를 쉽게 찾을 수 있도록 돕는 기능들.
+
+### 서브 페이지 기능
+
+- 세부 내용 제공: 서브 페이지에서 제공하는 구체적인 정보나 자료들을 설명.(예를 들어, 서비스 소개, FAQ, 정책 자료)
+- 카테고리 별 페이지: 서브 페이지에서 카테고리 별로 나뉘어 있는 기능들, 예를 들어 각 부서 소개, 로그인기능, 문서 다운로드 등
+
+## 💻 개발 환경
+
+- 개발 환경 : <img src="https://img.shields.io/badge/windows10-0078D6?style=flat-square&logo=windows10&logoColor=white"/>
+- 사용 프로그램 : <img src="https://img.shields.io/badge/Vs code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white"/>  <img src="https://img.shields.io/badge/figma-F24E1E?style=flat-square&logo=figma&logoColor=white"/>
+- 사용된 기술 :
+  <img src="https://img.shields.io/badge/html5-E34F26?style=flat-square&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/css3-1572B6?style=flat-square&logo=css3&logoColor=white"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"> <img src="https://img.shields.io/badge/Swiper-6332F6?style=flat-square&logo=Swiper&logoColor=white">
+
+
+
+## 👀 페이지 구성
+
+### 메인 페이지
+
+| 섹션1 : 메인비주얼                                                                                                      |
+| :---------------------------------------------------------------------------------------------------------------------- |
+| ![메인비주얼](https://github.com/user-attachments/assets/d7107121-e60d-4407-8795-813ed25c7698)
+
+
+| 화려하고 시선을 이끄는 이미지들을 활용한 와이드샷 이미지를 배경슬라이드로 사용합니다. 텍스트 슬라이드 총 두 가지의 슬라이드가 각각 정확한 타이밍에 작동되고 있습니다.
+
+<br>
+
+| 섹션2 : 티켓 예매 / 프로모션                                                                                              |
+| :------------------------------------------------------------------------------------------------------------------------ |
+| ![busanReserv]() |
+
+| 현재 온라인 예약 / 사전예약으로 예매할 경우 할인이 들어가는 입장권의 종류를 나열합니다. 각각 얼만큼 할인이 되는지 이미지에 after을 주어 오른쪽 상단에 보여줍니다. 마우스 hover시 이미지의 scale이 변화하고 translateY가 변화하며 위로 올라가는 효과를 줍니다.<br>
+| 뒷배경으로 보이는 배와 물결에서 확인할 수 있듯 수면을 나타낸 것이며 이하의 영역들은 마치 바닷속을 나타내는 것과도 같습니다.
+
+<br>
+
+| 섹션3 : 전시존                                                                                                           |
+| :----------------------------------------------------------------------------------------------------------------------- |
+| ![busanSlick]() |
+
+| 씨라이프 부산에서 전시중인 컨텐츠들을 Slick 슬라이더를 활용하여 나타냅니다. 자동 & 무한반복 슬라이드이며 hover시 translateY값을 변경하여 마우스 커서가 해당 전시를 가리키고 있는지 한 눈에 확인 가능합니다.
+
+<br>
+
+| 섹션4 : 공연                                                                                                           |
+| :--------------------------------------------------------------------------------------------------------------------- |
+| ![busanPer]() |
+
+| 씨라이프 부산에서 공연중인 컨텐츠들을 탭 메뉴로 보여줍니다. 네 가지의 공연이 진행되고 있으며 반응형에서는 select menu로 변경됩니다.
+
+<br>
+
+| 섹션5 : 바다친구들                                                                                                        |
+| :------------------------------------------------------------------------------------------------------------------------ |
+| ![busanFriend]() |
+| 씨라이프 부산에서 만날 수 있는 대표적인 해양생물들을 보여줍니다.
+
+<br>
+
+| 섹션6 : 리뷰와 Footer                                                                                                           |
+| :------------------------------------------------------------------------------------------------------------------------------ |
+| ![busanReviewFooter]() |
+
+| 기존 홈페이지에서는 단 하나의 리뷰만이 노출되어있으며 이 또한 네이버페이 리뷰 링크로 연결됩니다. 사진을 포함하여 여러 종류의 리뷰를 볼 수 있도록 바닐라 슬라이드로 구현하였습니다.<br>
+| 해저 바닥과도 같은 느낌을 주는 Footer 입니다. 산호와 게에 움직임을 주어 사용자에게 마치 실제 바닷속에 있는 듯한 즐거움을 주기 위한 효과입니다.
+
+<br>
+
+### 서브페이지
+
+| 서브01 : 티켓 예매                                                                                                        |
+| :------------------------------------------------------------------------------------------------------------------------ |
+| ![busanSub1-3]() |
+
+| 사이트의 주된 목적인 티켓예매 페이지입니다. 수많은 종류의 티켓을 모두 보여주려 공간을 효율적으로 활용하기 위해 Swiper 슬라이드를 사용하였고, 유형별 티켓을 구분하기 위해 슬라이드 박스 오른쪽 상단에 색상으로 종류를 나타내었습니다.<br>
+| 씨라이프 부산의 또다른 테마 전시관인 '브릭맨 원더월드'로 연결되는 버튼이 존재하며 예매 일정 변경이나 단체 방문에 관한 안내페이지로 넘어갈 수 있도록 하는 섹션이 있습니다. <br>
+| 마지막으로 입장권 환불 규정과 공지를 담은 아코디언 메뉴가 있습니다. 이 부분이 아코디언 메뉴라 탭을 열고 닫아야 한다는 것을 사용자가 한 눈에 인지할 수 있도록 둘 중 하나의 아코디언을 open 상태로 두었습니다.
+
+<br>
+
+| 서브02 : 안전수칙                                                                                                       |
+| :---------------------------------------------------------------------------------------------------------------------- |
+| ![busanSub2]() |
+
+| 페이지 제작 당시 많이 완화가 되고 있었으나 아직 코로나 바이러스의 확산 방지를 위한 규정들이 존재했기에 이를 방문자에게 상기시키기 위한 컨텐츠가 배치되었습니다. AOS를 활용하여 컨텐츠들이 떠오르는 효과를 주어 지루한 느낌이 들지 않도록 제작하였습니다.
+
+## 🚀 링크
+
+- [기획]()
+- [디자인]()
+- [DEMO]()\
