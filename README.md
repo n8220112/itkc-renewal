@@ -18,7 +18,7 @@
           <img src="https://img.shields.io/badge/React-61DAFB?style=plastic&logo=React&logoColor=white">
           <img src="https://img.shields.io/badge/ReduxSaga-999999?style=plastic&logo=ReduxSaga&logoColor=white">
           <br/><img src="https://img.shields.io/badge/StyledComponents-DB7093?style=plastic&logo=StyledComponents&logoColor=white">
-          <img src="https://img.shields.io/badge/Vercel-000000?style=plastic&logo=Vercel&logoColor=white">
+          <img src="https://private-user-images.githubusercontent.com/209986091/443515869-98016a7d-68eb-4e48-b033-ce69253bb0db.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDcyMDM2OTQsIm5iZiI6MTc0NzIwMzM5NCwicGF0aCI6Ii8yMDk5ODYwOTEvNDQzNTE1ODY5LTk4MDE2YTdkLTY4ZWItNGU0OC1iMDMzLWNlNjkyNTNiYjBkYi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNTE0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDUxNFQwNjE2MzRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hNzcxMzYyZDVjMGNmMGFmNzcwYTg1MTMxZmY4NzJiNWE1MGUyNTQwOWQzMGE0NjZkNWJmZWQxNzFkNmRkZDJmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.DY83vBz07V33l4zWlNEp7OAI75tAN-JFIVZfgS-jIY8">
           </div>
     </div>
     <div align= "center">
