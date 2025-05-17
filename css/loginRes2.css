@@ -1,0 +1,37 @@
+@media screen and (max-width:479px) {
+  /* reset common */
+  :root {
+    --small: 12px;
+    --regular: 15px;
+    --large: 18px;
+    --big: 20px;
+  }
+
+  .inner {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  #container {
+    margin-top: 40px;
+  }
+  
+  .logo_res {display: none;}
+  
+  .login_banner {
+    height: 160px;
+  }
+  
+  .login_banner_title h2 {font-size: 36px; margin-bottom: 15px; color: white;}
+  
+  .login_title{margin-top: 30px;}
+  .login_title h3{
+    font-size: 30px;
+  }
+
+  .login_form{width: 100%; gap: 50px;}
+  #loginForm{gap: 40px;}
+  .id span, .pw span{font-size: var(--regular);}
+  .id input, .pw input{padding: 10px 15px; width: 75%;}
+  .loginBtn{padding: 10px 15px;}
+}
