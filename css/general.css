@@ -403,11 +403,14 @@ header {
   border-bottom: 1px solid var(--lightgray);
   opacity: 0;
   transition: .3s;
+  display: none;
 }
 
 .snb > li:hover .snb_sub li{
   opacity: 1;
+  display: block;
 }
+
 
 .snb > li .snb_sub li:nth-child(1){transition-delay: 0.05s;}
 .snb > li .snb_sub li:nth-child(2){transition-delay: 0.1s;}
