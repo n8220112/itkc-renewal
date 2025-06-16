@@ -50,25 +50,27 @@
 
 ## 🧩 주요 기능
 
+
 ### ✅ 메인 페이지 (`index.html`)
 - Swiper를 이용한 슬라이드 배너
 - 주요 서비스 바로가기 아이콘 (고전번역교육원, 전자책도서관 등)
 - '고전산책' 코너를 통해 칼럼, 명구, 한시 등 고전 콘텐츠 카드 UI 구성
-
+![Image](https://github.com/user-attachments/assets/61c3bf67-0c58-468b-b83d-312a0a310d5b)
 ### ✅ 로그인 페이지 (`login.html`)
 - ID/비밀번호 입력 폼
 - 관련 링크 (아이디/비밀번호 찾기, 회원가입 등)
 - 배경 이미지 및 반응형 구조 적용
-
+![Image](https://github.com/user-attachments/assets/2f8c9cc9-1698-423d-9b35-f3205f8e1a7d)
 ### ✅ 공지사항 페이지 (`notice.html`)
 - 카테고리 탭 (전체/채용/입찰/일반)
 - 검색 기능 및 총 게시물 수 출력
 - JavaScript 기반 동적 필터링 및 페이지네이션 기능 구현 (`notice.js`)
-
+![Image](https://github.com/user-attachments/assets/13d8e402-a4a3-4d82-9201-c0d5232616ca)
 ### ✅ 공통 요소
 - `header.html`: 전체 페이지 공통 헤더 및 GNB + 서브메뉴 포함
 - `general.css`: 전체 페이지에 공통 적용되는 스타일
 - Font Awesome 아이콘 사용
+![Image](https://github.com/user-attachments/assets/bb7859e9-b1b4-4c6d-87d2-599693da2990)
 
 ---
 
