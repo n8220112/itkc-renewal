@@ -5,6 +5,7 @@
 
 ## 🔗 링크
 - 🖥 [배포 링크](https://n8220112.github.io/itkc-renewal/)
+- 📑 [기획서](https://drive.google.com/file/d/1DZKYmeqWnfAdJ8FukVkOwCAI9LKPySaE/view?usp=sharing)
 - 🖼 [디자인 피그마](https://www.figma.com/design/FlYkzNTcwPkM92SKITNQvo/%EA%B3%B5%EA%B3%B5%EA%B8%B0%EA%B4%80%EB%A6%AC%EB%89%B4%EC%96%BC_%EC%9D%B4%EB%B4%84?node-id=0-1&t=3CYcNwjGUvNpBW4b-1)
 
 ## 📗 제작자
